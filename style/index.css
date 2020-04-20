@@ -1,0 +1,497 @@
+/* Reset begins */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset ends */
+
+
+.top-nav {
+    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #e4d6e2;
+    border: 1px solid;
+}
+
+.nav-links-items {
+    display: flex;
+    border: 1px solid;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+a {
+    padding: 20px;
+    margin-top: 5px;
+    background-color: white;
+    border: 0.5px solid orange;
+    color: darkgray;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+img {
+    width: 40%;
+}
+
+.main-section {
+    width: 92.5%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+
+.right-container {
+    width: 70%;
+    padding: 50px;
+    border: 1px solid;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    border: 1px solid orangered;
+}
+
+p {
+    font-size: 1.875rem;
+    line-height: 45px;
+}
+
+.sub-section .blank-containers {
+    width: 250px;
+    height: 250px;
+    background: rgb(197, 179, 196);
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.top-main-section {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+.img1 {
+    
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img2 {
+    
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img3 {
+   
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img4 {
+   
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img5 {
+    
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img6 {
+    
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img7 {
+   
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img8 {
+    
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.img1 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img2 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img3 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img4 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img5 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img6 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img7 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.img8 p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+footer {
+    background: #e4d6e2;
+    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    align-self: center;
+}
+
+footer button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1.875rem;
+    font-weight: 500;
+    width: 20%;
+    align-self: center;
+}
+
+
+/* Introduce max-width media queries into your project at 800px and 500px */
+/* Change CSS styles from hard-coded px to any one of the responsive units learned today */
+/* Add accessability features to your webpage */
+
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    div.top-nav {
+        padding: 50px;
+        background: #e4d6e2;
+        border: 1px solid blue;
+        margin: 0;
+        width: 93.25%;
+    }
+
+    section.main-section {
+        width: 100%;
+        padding: 22px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 3px solid purple;
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    img {
+        width: 35%;
+        height: 70%;
+        align-self: center;
+    }
+
+    .top-main-section {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid green;
+    }
+
+    .right-container {
+        width: 70%;
+        padding: 50px;
+        border: 3px solid blue;
+    }
+
+    .img1 {
+    
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img2 {
+        
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img3 {
+       
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img4 {
+       
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img5 {
+        
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img6 {
+        
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img7 {
+       
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .img8 {
+        
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .blank-containers {
+        border: 1px solid;
+        width: 300px;
+        height: 10px;
+    }
+
+    footer button {
+        margin-top: 0.625rem;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-size: 1.4375rem;
+        font-weight: 500;
+        width: 30%;
+        align-self: center;
+    }
+
+    footer {
+        background: #e4d6e2;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        border: 3px solid;
+        margin-right: 0;
+        margin-left: 0;
+        width: 93%;
+    }
+    
+    footer p {
+        text-align: center;
+        align-self: center;
+        border: 1px solid;
+        margin: 0;
+    }
+
+    .sub-section .blank-containers {
+        width: 350px;
+        height: 350px;
+        background: rgb(197, 179, 196);
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    h1 { 
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+
+    section.main-section {
+        width: 100%;
+        padding: 22px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 3px solid purple;
+        margin: 0;
+        margin-right: 0;
+        width: 103.8%;
+    }
+
+    a {
+        padding: 15px;
+        margin-top: 5px;
+        background-color: white;
+        border: 0.5px solid orange;
+        color: darkgray;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    img {
+        width: 50%;
+        height: 70%;
+        align-self: center;
+        border: 2px solid red;
+    }
+
+    .right-container {
+        width: 45%;
+        padding: 20px;
+        border: 3px solid blue;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2.0rem;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        border: 1px solid orangered;
+        border-radius: 5px;
+        
+    }
+
+    p {
+        font-size: 1.0rem;
+        line-height: 20px;
+    }
+
+    .sub-section .blank-containers {
+        width: 250px;
+        height: 250px;
+        background: rgb(197, 179, 196);
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+
+    footer button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        border: 1px solid orangered;
+        border-radius: 5px;
+    }
+
+    footer p {
+        text-align: center;
+        align-self: center;
+        font-size: 30px;
+    }
+}
