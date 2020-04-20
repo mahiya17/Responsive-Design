@@ -55,7 +55,7 @@ table {
 
 .nav-links-items {
     display: flex;
-    /* border: 1px solid; */
+    border: 1px solid;
     margin-top: 10px;
     padding-top: 10px;
 }
@@ -98,6 +98,7 @@ img {
 .right-container {
     width: 70%;
     padding: 50px;
+    border: 1px solid;
 }
 
 h2 {
@@ -112,6 +113,7 @@ button {
     padding: 15px;
     font-size: 30px;
     font-weight: 500;
+    border: 1px solid orangered;
 }
 
 p {
@@ -127,12 +129,13 @@ p {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
-
+    border: 1px solid;
 }
 
 .top-main-section {
     display: flex;
     justify-content: space-between;
+    border: 1px solid;
 }
 
 .sub-section {
@@ -141,6 +144,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 10px;
+    border: 1px solid;
 }
 
 .img1 {
@@ -386,5 +390,108 @@ footer button {
         align-self: center;
         border: 1px solid;
         margin: 0;
+    }
+
+    .sub-section .blank-containers {
+        width: 350px;
+        height: 350px;
+        background: rgb(197, 179, 196);
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    h1 { 
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+
+    section.main-section {
+        width: 100%;
+        padding: 22px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 3px solid purple;
+        margin: 0;
+        margin-right: 0;
+        width: 103.8%;
+    }
+
+    a {
+        padding: 15px;
+        margin-top: 5px;
+        background-color: white;
+        border: 0.5px solid orange;
+        color: darkgray;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    img {
+        width: 50%;
+        height: 70%;
+        align-self: center;
+        border: 2px solid red;
+    }
+
+    .right-container {
+        width: 45%;
+        padding: 20px;
+        border: 3px solid blue;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2.0rem;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        border: 1px solid orangered;
+        border-radius: 5px;
+        
+    }
+
+    p {
+        font-size: 1.0rem;
+        line-height: 20px;
+    }
+
+    .sub-section .blank-containers {
+        width: 250px;
+        height: 250px;
+        background: rgb(197, 179, 196);
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+
+    footer button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        border: 1px solid orangered;
+        border-radius: 5px;
+    }
+
+    footer p {
+        text-align: center;
+        align-self: center;
+        font-size: 30px;
     }
 }
